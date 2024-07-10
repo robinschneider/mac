@@ -33,6 +33,8 @@ brew "kubernetes-cli"
 brew "kustomize"
 # Kubernetes Native Policy Management
 brew "kyverno"
+# Shell command parallelization utility
+brew "parallel"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Fast, disk space efficient package manager
