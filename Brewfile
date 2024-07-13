@@ -49,8 +49,12 @@ brew "snyk-cli"
 brew "sonar-scanner"
 # Kubernetes component that generates reports on cluster conformance
 brew "sonobuoy"
+# Non-interactive SSH password auth
+brew "sshpass"
 # Tail multiple Kubernetes pods & their containers
 brew "stern"
+# Tools for the WireGuard secure network tunnel
+brew "wireguard-tools"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
 # Shell extension to navigate your filesystem faster
@@ -92,5 +96,7 @@ cask "mumble"
 cask "obsidian"
 # Browse, manage, inspect containers and images
 cask "podman-desktop"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
 # Music streaming service
 cask "spotify"
