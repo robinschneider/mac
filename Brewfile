@@ -9,6 +9,8 @@ brew "ansible"
 brew "bash-completion"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Tool for interacting with remote images and registries
 brew "crane"
 # Tool for exploring each layer in a docker image
