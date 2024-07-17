@@ -31,10 +31,14 @@ brew "jq"
 brew "k9s"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# Package manager for kubectl plugins
+brew "krew"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
 # Kubernetes Native Policy Management
 brew "kyverno"
+# Manage multiple Node.js versions
+brew "nvm"
 # Shell command parallelization utility
 brew "parallel"
 # Execute binaries from Python packages in isolated environments
@@ -45,6 +49,8 @@ brew "pnpm"
 brew "prettier"
 # Rsync for cloud storage
 brew "rclone"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Scans and monitors projects for security vulnerabilities
 brew "snyk-cli"
 # Launcher to analyze a project with SonarQube
