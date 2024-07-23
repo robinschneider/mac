@@ -39,6 +39,8 @@ brew "kustomize"
 brew "kyverno"
 # Manage multiple Node.js versions
 brew "nvm"
+# Command-line client for OpenStack
+brew "openstackclient"
 # Shell command parallelization utility
 brew "parallel"
 # Execute binaries from Python packages in isolated environments
@@ -92,6 +94,8 @@ cask "1password-cli"
 cask "brave-browser"
 # Utility that prevents the system from going to sleep
 cask "caffeine"
+# App to build and share containerised applications and microservices
+cask "docker"
 # Go (golang) IDE
 cask "goland"
 # Terminal emulator as alternative to Apple's Terminal app
