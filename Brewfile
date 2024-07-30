@@ -25,6 +25,8 @@ brew "gnu-sed"
 brew "gnu-tar"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Kubernetes package manager
+brew "helm"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
@@ -63,6 +65,8 @@ brew "sonobuoy"
 brew "sshpass"
 # Tail multiple Kubernetes pods & their containers
 brew "stern"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Tools for the WireGuard secure network tunnel
 brew "wireguard-tools"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
