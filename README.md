@@ -14,3 +14,8 @@ This repository is used to automate/backup tools used on my MacBook.
 ```bash
 brew bundle --file=Brewfile
 ```
+
+### Create Brewfile
+```bash
+brew bundle dump --describe --file=Brewfile
+```
