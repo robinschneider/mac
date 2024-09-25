@@ -2,6 +2,7 @@ tap "fluxcd/tap"
 tap "gardener/tap"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
+tap "homeport/tap"
 tap "stackitcloud/tap"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
@@ -35,6 +36,8 @@ brew "k9s"
 brew "kubernetes-cli"
 # Package manager for kubectl plugins
 brew "krew"
+# SDK for building Kubernetes APIs using CRDs
+brew "kubebuilder"
 # Template-free customization of Kubernetes YAML manifests
 brew "kustomize"
 # Kubernetes Native Policy Management
@@ -87,6 +90,8 @@ brew "gardener/tap/gardenctl-v2"
 brew "hashicorp/tap/terraform"
 # Vault
 brew "hashicorp/tap/vault"
+# δyƒƒ /ˈdʏf/ - A diff tool for YAML files, and sometimes JSON
+brew "homeport/tap/dyff"
 # A command-line interface to manage STACKIT resources.
 # This CLI is in a beta state. More services and functionality will be supported soon.
 brew "stackitcloud/tap/stackit"
@@ -100,6 +105,8 @@ cask "brave-browser"
 cask "caffeine"
 # App to build and share containerised applications and microservices
 cask "docker"
+# Word processor that shows structure and content
+cask "gingko"
 # Go (golang) IDE
 cask "goland"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -116,3 +123,7 @@ cask "podman-desktop"
 cask "raspberry-pi-imager"
 # Music streaming service
 cask "spotify"
+# Controls screen display settings
+cask "switchresx"
+# Open-source code editor
+cask "visual-studio-code"
